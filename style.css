@@ -27,10 +27,12 @@ input[type=text] {
 }
 
 select {
-	width: 63%;
+	width: 60%;
 	padding: 10px;
-	border-radius: 10px;
 	margin: 10px 10px 10px;
+	border: 0;
+	border-radius: 10px;
+	box-shadow: 0 0 15px 4px #7a7a7a;
 }
 
 button {
