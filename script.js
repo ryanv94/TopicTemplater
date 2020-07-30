@@ -5,6 +5,9 @@ var feat = "https://nr-production-discourse.s3.dualstack.us-east-1.amazonaws.com
 var lvlups = "https://nr-production-discourse.s3.dualstack.us-east-1.amazonaws.com/original/3X/2/4/24e0ad9c7c3e993cb58d7e4ce484f4e18d9fdd58.png";
 var bpg = "https://nr-production-discourse.s3.dualstack.us-east-1.amazonaws.com/original/3X/f/f/ff42f6691127bc45f9363a63e0a9a221fb74b45b.png";
 var oh = "https://nr-production-discourse.s3.dualstack.us-east-1.amazonaws.com/original/3X/1/3/13deb202b10a8386a15e45460e6d60382a0c52d3.png";
+var fso = "https://nr-production-discourse.s3.dualstack.us-east-1.amazonaws.com/original/3X/7/0/70ebee062d5991206fcdfa05031f91fa9d87dcf4.png";
+var tdp = "https://nr-production-discourse.s3.dualstack.us-east-1.amazonaws.com/original/3X/6/3/63774809c027418929951a749b2f8241517bbeaf.png";
+var ai = "https://nr-production-discourse.s3.dualstack.us-east-1.amazonaws.com/original/3X/1/c/1c18a6664643a3892e81326b244770f6a212db88.png";
 
 var boxTitle, boxBody, boxUrl, boxType, boxImg, boxLink;
 
@@ -29,6 +32,12 @@ function myFunc() {
         boxImg = bpg;
     } else if (boxType == 6) {
         boxImg = oh;
+    } else if (boxType == 7) {
+        boxImg = fso;
+    } else if (boxType == 8) {
+        boxImg = tdp;
+    } else if (boxType == 9) {
+        boxImg = ai;
     }
 
 
