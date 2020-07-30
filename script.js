@@ -33,7 +33,7 @@ function myFunc() {
 
 
 
-    document.getElementById("results").innerHTML = "<pre><code><xmp><div style=\"background: rgba(212, 212, 212, 0.4);  padding-bottom: 20px;\"><br>\n   <a href=" + '"' + boxUrl + '"' + "><img src=" + '"' + boxImg + '"' + " height=\"75\"></a><br>\n   <a href=" + '"' + boxUrl + '"' + "><h2>" + boxTitle + "</h2></a>\n   <a href=" + '"' + boxUrl + '"' + "><p>" + boxBody + "</p></a>\n   <a href=" + '"' + boxUrl + '"' + "><strong>" + boxLink + "</strong></a>\n</div></xmp></code></pre>";
+    document.getElementById("results").innerHTML = "<pre><code><xmp><div style=\"padding-bottom: 20px;\"><br>\n   <a href=" + '"' + boxUrl + '"' + "><img src=" + '"' + boxImg + '"' + " height=\"75\"></a><br>\n   <a href=" + '"' + boxUrl + '"' + "><h2>" + boxTitle + "</h2></a>\n   <a href=" + '"' + boxUrl + '"' + "><p>" + boxBody + "</p></a>\n   <a href=" + '"' + boxUrl + '"' + "><strong>" + boxLink + "</strong></a>\n</div></xmp></code></pre>";
 
     return false;
 }
